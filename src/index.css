@@ -1,0 +1,63 @@
+/* Importing fonts that i won't use */
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+/* Importing Downloaded Fonts */
+
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url(../src/assets/fonts/FoundersGrotesk-Semibold.woff) format('woff');
+}
+
+@font-face {
+  font-family: NeueMontreal;
+  src: url(../src/assets/fonts/NeueMontreal-Regular.woff) format('woff');
+}
+
+/* Adjusting Scroll-Bar  */
+::-webkit-scrollbar {
+  width: 6.5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(
+    45deg,
+    rgba(136, 136, 136, 0.109),
+    rgba(136, 136, 136, 0.183)
+  );
+  transition: all 1s ease-in-out;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5555553d;
+}
+
+/* Animation(s) */
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 50s linear infinite;
+  transition: all ease;
+}
+
+/* Layer and Apply Directives */
+@layer Masker {
+  .masker {
+    @apply font-['FoundersGrotesk'] uppercase font-extrabold tracking-tight;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
