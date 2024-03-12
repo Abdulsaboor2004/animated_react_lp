@@ -14,6 +14,11 @@
   src: url(../src/assets/fonts/NeueMontreal-Regular.woff) format('woff');
 }
 
+/* Selection */
+::selection{
+  background-color: #0d564d90;
+}
+
 /* Adjusting Scroll-Bar  */
 ::-webkit-scrollbar {
   width: 6.5px;
@@ -32,7 +37,7 @@
   transition: all 1s ease-in-out;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #5555553d;
+  background: #0D564D;
 }
 
 /* Animation(s) */
@@ -47,8 +52,14 @@
 }
 
 .animate-marquee {
-  animation: marquee 50s linear infinite;
-  transition: all ease;
+  animation: marquee 62s linear infinite;
+  transition: all ease-in-out;
+  filter: blur(1px);
+}
+.animate-marquee:hover {
+  filter: blur(0px);
+  animation: marquee 62s linear infinite;
+  transition: all ease-in-out;
 }
 
 /* Layer and Apply Directives */

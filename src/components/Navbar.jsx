@@ -2,7 +2,7 @@ import React from 'react';
 import tech_insta_logo from '../assets/images/tech_insta_logo.jpg';
 
 const Navbar = () => (
-  <div className="w-full text-dark top-0 sticky px-10 py-1 rounded-full font-black flex justify-between items-center font-['NeueMontreal']">
+  <div className="w-full text-dark top-0 sticky bg-transparent backdrop-blur-sm z-20 px-10 py-1 rounded-full font-black flex justify-between items-center font-['NeueMontreal']">
     <div className="LOGO w-[full]  flex-shrink-0">
       <img className=" w-20 h-20" src={tech_insta_logo} alt="" />
     </div>
