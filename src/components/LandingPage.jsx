@@ -2,16 +2,16 @@ import React from 'react';
 import { MdArrowOutward } from 'react-icons/md';
 
 const LandingPage = () => (
-  <div className="w-full text-dark h-screen -mb-44 bg-dim_white">
-    <div className="TEXT-STRUCTURE mt-14 px-14">
+  <div className='w-full text-dark h-screen -mb-44 bg-dim_white'>
+    <div className='TEXT-STRUCTURE mt-14 px-14'>
       {['We Develop', 'Next-Level', 'Stuff for You'].map((item, index) => {
         return (
           // i don't know why text-size can't be changed via @layer directive
-          <div className="masker flex items-center">
+          <div className='masker flex items-center'>
             {index === 1 && (
-              <div className="mr-[1vw] w-[6.5vmax] rounded-md h-[5.2vmax] top-[2.1vw] relative bg-green-500"></div>
+              <div className='mr-[1vw] w-[6.5vmax] rounded-md h-[5.2vmax] top-[2.1vw] relative bg-green-500'></div>
             )}
-            <h1 className="pt-[2vw] -mb-[1vw] uppercase tracking-tight text-[10vmax] leading-[.60]">
+            <h1 className='pt-[2vw] -mb-[1vw] uppercase tracking-tight text-[10vmax] leading-[.60]'>
               {item}
             </h1>
           </div>
@@ -23,13 +23,13 @@ const LandingPage = () => (
         'Unlimited revisions until you are satisfied',
         'Watch your ROI fly ground to sky-high',
       ].map((item) => {
-        return <p className="text-lg leading-none tracking-tight">{item}</p>;
+        return <p className='text-lg leading-none tracking-tight'>{item}</p>;
       })}
-      <div className="flex items-center gap-3">
-        <div className="py-2 px-5 border border-dark/20 rounded-full ml-40 text-xl leading-none tracking-tight ">
+      <div className='flex items-center gap-3'>
+        <div className='py-2 px-5 border border-dark/20 rounded-full ml-40 text-xl leading-none tracking-tight '>
           Start My Project Today!
         </div>
-        <div className="w-7 h-7 flex items-center justify-center border border-dark/20 rounded-full">
+        <div className='w-7 h-7 flex items-center justify-center border border-dark/20 rounded-full'>
           <MdArrowOutward />
         </div>
       </div>
