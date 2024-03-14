@@ -1,4 +1,5 @@
 import React from 'react';
+import Tech_Insta_design from '../assets/images/Tech_Insta_design.png';
 import { MdArrowOutward } from 'react-icons/md';
 
 const LandingPage = () => (
@@ -9,7 +10,10 @@ const LandingPage = () => (
           // i don't know why text-size can't be changed via @layer directive
           <div className='masker flex items-center'>
             {index === 1 && (
-              <div className='mr-[1vw] w-[6.5vmax] rounded-md h-[5.2vmax] top-[2.1vw] relative bg-green-500'></div>
+              <div
+              style={{backgroundImage: `url(${Tech_Insta_design})`}}
+                className='mr-[1vw] w-[6.5vmax] rounded-md h-[5.2vmax] top-[2.1vw] relative 
+             bg-center bg-no-repeat bg-cover'></div>
             )}
             <h1 className='pt-[2vw] -mb-[1vw] uppercase tracking-tight text-[10vmax] leading-[.60]'>
               {item}

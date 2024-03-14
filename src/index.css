@@ -15,7 +15,7 @@
 }
 
 /* Selection */
-::selection{
+::selection {
   background-color: #0d564d90;
 }
 
@@ -40,7 +40,7 @@
   background: #0d564d94;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #0D564D;
+  background: #0d564d;
 }
 
 /* Animation(s) */
