@@ -1,5 +1,5 @@
 import React from 'react';
-import Tech_Insta_design from '../assets/images/Tech_Insta_design.png';
+import Tech_Insta_design from '../assets/images/Tech_Insta_design.webp';
 import { MdArrowOutward } from 'react-icons/md';
 
 const LandingPage = () => (

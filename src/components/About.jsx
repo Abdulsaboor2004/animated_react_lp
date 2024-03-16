@@ -2,7 +2,7 @@ import React from 'react';
 import { MdArrowOutward } from 'react-icons/md';
 
 const About = () => (
-  <div className='w-full font-["NeueMontreal"] font-medium text-dark bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl'>
+  <div className='w-full font-["NeueMontreal"] font-medium text-dark bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl -mt-5'>
     <h2 className='w-3/4 text-[3vmax] py-16 pl-[2vw]'>
       Tech Insta is a full service agency who create{' '}
       <a
@@ -47,7 +47,7 @@ const About = () => (
         </button>
       </div>
       <div className='w-1/2 h-[59vh] overflow-hidden drop-shadow-2xl rounded-2xl bg-dark/20 mr-[2vw]'>
-        <div className="w-full h-full bg-cover bg-center bg-[url('./assets/images/developing_closeup.jpeg')]"></div>
+        <div className="w-full h-full bg-cover bg-center bg-[url('./assets/images/developing_closeup.webp')]"></div>
       </div>
     </div>
   </div>

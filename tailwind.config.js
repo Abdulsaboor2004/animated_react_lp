@@ -14,6 +14,14 @@ export default {
       Heading: ['Fjalla One', 'sans-serif'],
       NeueMontreal: ['NeueMontreal', 'sans-serif']
     },
+    screens: {
+      xs: "280px",
+      ss: "620px",
+      sm: "768px",
+      md: "1060px",
+      lg: "1200px",
+      xl: "1700px",
+    },
   },
   plugins: [],
 };

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import eye from '../assets/images/eye.png';
-import { transform } from 'framer-motion';
+
 
 const Eyes = () => {
   const [rotate, setrotate] = useState(0);
@@ -19,7 +19,7 @@ const Eyes = () => {
   });
 
   return (
-    <div className='w-full h-[80vh] bg-dark flex flex-row rounded-t-3xl'>
+    <div className='w-full h-[80vh] bg-dark flex flex-row rounded-t-3xl -mt-5'>
       <div
         className='w-full h-full object-contain bg-no-repeat bg-center relative'
         style={{ backgroundImage: `url(${eye})` }}>
