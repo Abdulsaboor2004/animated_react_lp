@@ -19,7 +19,7 @@ const Eyes = () => {
   });
 
   return (
-    <div className='w-full h-[80vh] bg-dark flex flex-row rounded-t-3xl -mt-5'>
+    <aside className='w-full h-[80vh] bg-dark flex flex-row rounded-t-3xl -mt-5'>
       <div
         className='w-full h-full object-contain bg-no-repeat bg-center relative'
         style={{ backgroundImage: `url(${eye})` }}>
@@ -37,7 +37,7 @@ const Eyes = () => {
           </div>
         </div>
       </div>
-    </div>
+    </aside>
   );
 };
 
