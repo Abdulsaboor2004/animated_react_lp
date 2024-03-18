@@ -20,7 +20,7 @@
 }
 
 /* Adjusting Scroll-Bar  */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 6.5px;
 }
 
@@ -41,7 +41,7 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #0d564d;
-}
+} */
 
 /* Animation(s) */
 
@@ -87,6 +87,8 @@
     0 4px 6px 0 rgb(93 100 148 / 20%);
 }
 
+/* giving body a bg */
+
 
 /* input field design */
 @layer InputField {
@@ -105,6 +107,14 @@
     @apply font-['FoundersGrotesk'] uppercase font-extrabold tracking-tight;
   }
 }
+
+@layer Shadow {
+  .shadow {
+    @apply shadow-[rgba(7,_65,_210,_0.1)_0px_12px_32px];
+  }
+}
+
+
 
 @tailwind base;
 @tailwind components;

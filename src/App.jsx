@@ -17,9 +17,9 @@ const App = () => {
       <LandingPage />
       <Marquee />
       <About />
-      <Eyes />
       <Projects />
       <Testimonials />
+      <Eyes />
     </section>
   );
 };
