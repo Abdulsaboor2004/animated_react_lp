@@ -65,6 +65,40 @@
   transition: all ease-in-out;
 }
 
+/* Button Css */
+.btn {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  height: 38px;
+  padding: 8px 24px;
+  border-radius: 50px;
+  
+  box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+    0 1px 3px 0 rgb(93 100 148 / 20%);
+  transition: all 0.2s ease-out;
+}
+.btn:hover {
+  box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%),
+    0 4px 6px 0 rgb(93 100 148 / 20%);
+}
+
+
+/* input field design */
+@layer InputField {
+  .input-field {
+    @apply  font-['NeueMontreal'] outline-none border-none border-b-dark/20 list-none appearance-none bg-dim_white gap-1;
+  }
+
+  .input-field::placeholder {
+    @apply text-dark/80; 
+  }
+}
+
 /* Layer and Apply Directives */
 @layer Masker {
   .masker {

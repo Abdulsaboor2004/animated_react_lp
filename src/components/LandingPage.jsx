@@ -3,7 +3,7 @@ import Tech_Insta_design from '../assets/images/Tech_Insta_design.webp';
 import { MdArrowOutward } from 'react-icons/md';
 
 const LandingPage = () => (
-  <section className='w-full text-dark h-screen -mb-44 bg-dim_white'>
+  <main className='w-full text-dark h-screen -mb-44 bg-dim_white'>
     <div className='TEXT-STRUCTURE mt-14 px-14'>
       {['We Develop', 'Next-Level', 'Stuff for You'].map((item, index) => {
         return (
@@ -38,7 +38,7 @@ const LandingPage = () => (
         </div>
       </div>
     </div>
-  </section>
+  </main>
 );
 
 export default LandingPage;
