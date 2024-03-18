@@ -6,17 +6,22 @@ import About from './components/About';
 import Eyes from './components/Eyes';
 import Projects from './components/Projects';
 import Testimonials from './components/Testimonials';
+import LocomotiveScroll from 'locomotive-scroll';
 
-const App = () => (
-  <section className='w-full min-h-screen bg-dim_white'>
-    <Navbar />
-    <LandingPage />
-    <Marquee />
-    <About />
-    <Eyes />
-    <Projects />
-    <Testimonials />
-  </section>
-);
+const App = () => {
+  const locomotiveScroll = new LocomotiveScroll();
+
+  return (
+    <section className='w-full min-h-screen bg-dim_white'>
+      <Navbar />
+      <LandingPage />
+      <Marquee />
+      <About />
+      <Eyes />
+      <Projects />
+      <Testimonials />
+    </section>
+  );
+};
 
 export default App;
