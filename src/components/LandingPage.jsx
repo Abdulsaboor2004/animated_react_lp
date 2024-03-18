@@ -3,7 +3,7 @@ import Tech_Insta_design from '../assets/images/Tech_Insta_design.webp';
 import { MdArrowOutward } from 'react-icons/md';
 
 const LandingPage = () => (
-  <main className='w-full text-dark h-screen -mb-44 bg-dim_white'>
+  <main className='w-full text-dark h-screen -mb-44 bg-dim_white '>
     <div className='TEXT-STRUCTURE mt-14 px-14'>
       {['We Develop', 'Next-Level', 'Stuff for You'].map((item, index) => {
         return (
@@ -15,14 +15,14 @@ const LandingPage = () => (
                 className='mr-[1vw] w-[6.5vmax] rounded-md h-[5.2vmax] top-[2.1vw] relative 
              bg-center bg-no-repeat bg-cover'></div>
             )}
-            <h1 className='pt-[2vw] -mb-[1vw] uppercase tracking-tight text-[10vmax] leading-[.60]'>
+            <h1 className='pt-[2vw] -mb-[1vw] uppercase tracking-tight text-[8vmax] leading-[.60]'>
               {item}
             </h1>
           </div>
         );
       })}
     </div>
-    <div className='font-["NeueMontreal"] border-t-[1px] border-dark/20 mt-64 flex justify-between items-center py-5 px-12'>
+    <div className='font-["NeueMontreal"] border-t-[1px] border-dark/20 mt-64 flex justify-between items-center py-5 px-12 '>
       {[
         'Unlimited revisions until you are satisfied',
         'Watch your ROI fly ground to sky-high',

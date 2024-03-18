@@ -8,13 +8,13 @@ const About = () => (
       <a
         href='#'
         className='underline'>
-        cool games
+        Cool Games
       </a>
       ,{' '}
       <a
         href='#'
         className='underline'>
-        slick websites
+        Responsive Websites
       </a>{' '}
       &{' '}
       <a
