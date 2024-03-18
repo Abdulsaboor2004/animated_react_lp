@@ -62,7 +62,7 @@ const Testimonials = () => {
           pagination={{ clickable: true }}
           spaceBetween={0}
           centeredSlides={true}
-          slidesPerView={2}
+          slidesPerView={1}
           loop={true}
           effect='flip'>
           <SwiperSlide>
@@ -134,7 +134,7 @@ const Testimonials = () => {
 
       {/* DIV FOR DESKTOP */}
 
-      <div className=' sm:visible md:visible lg:visible xl:visible w-[90%] h-[50vh] flex-none gap-2 flex items-center justify-center  '>
+      <div className='sm:visible md:visible lg:visible xl:visible w-[90%] h-[50vh] flex-none gap-2 flex items-center justify-center  '>
         {/* cards */}
 
         <div className='relative w-[250px] h-[270px] flex-none border rounded-md bg-dark  flex items-center justify-center  hover:bg-dark/90  shadow'>
@@ -156,7 +156,7 @@ const Testimonials = () => {
           </blockquote>
         </div>
 
-        <div className='relative w-[250px] h-[270px] flex-none  border rounded-md bg-[#CDEA68] flex items-center justify-center  hover:bg-[#ceea68ac] shadow'>
+        <div className='relative w-[260px] h-[290px] flex-none  border rounded-md bg-[#CDEA68] flex items-center justify-center  hover:bg-[#ceea68ac] shadow '>
           <img
             className=' w-32 '
             src='https://cdn.worldvectorlogo.com/logos/fiverr-2.svg'
