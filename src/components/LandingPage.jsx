@@ -12,7 +12,9 @@ const LandingPage = () => (
           <div className='masker flex items-center'>
             {index === 1 && (
               <motion.div
-              initial={{width: 0}} animate={{width: "6.5vmax"}} transition={{ease: [1.2, 2, 0.1, 1]}}
+                initial={{ width: 0 }}
+                animate={{ width: '6.5vmax' }}
+                transition={{ delay: 0.7, ease: [9, 8, 7, 6] }}
                 style={{ backgroundImage: `url(${Tech_Insta_design})` }}
                 className='mr-[1vw] w-[6.5vmax] rounded-md h-[5.2vmax] top-[2.1vw] relative 
              bg-center bg-no-repeat bg-cover'></motion.div>
