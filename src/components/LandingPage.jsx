@@ -1,6 +1,7 @@
 import React from 'react';
 import Tech_Insta_design from '../assets/images/Tech_Insta_design.webp';
 import { MdArrowOutward } from 'react-icons/md';
+import { motion } from 'framer-motion';
 
 const LandingPage = () => (
   <main className='w-full text-dark h-screen -mb-44 bg-dim_white '>
@@ -10,10 +11,11 @@ const LandingPage = () => (
           // i don't know why text-size can't be changed via @layer directive
           <div className='masker flex items-center'>
             {index === 1 && (
-              <div
-              style={{backgroundImage: `url(${Tech_Insta_design})`}}
+              <motion.div
+              initial={{width: 0}} animate={{width: "6.5vmax"}} transition={{ease: [1.2, 2, 0.1, 1]}}
+                style={{ backgroundImage: `url(${Tech_Insta_design})` }}
                 className='mr-[1vw] w-[6.5vmax] rounded-md h-[5.2vmax] top-[2.1vw] relative 
-             bg-center bg-no-repeat bg-cover'></div>
+             bg-center bg-no-repeat bg-cover'></motion.div>
             )}
             <h1 className='pt-[2vw] -mb-[1vw] uppercase tracking-tight text-[8vmax] leading-[.60]'>
               {item}

@@ -12,16 +12,18 @@ export default {
       Paragraph: ['Pathway Extreme', 'sans-serif'],
       Paragraph2: ['Schibsted Grotesk', 'sans-serif'],
       Heading: ['Fjalla One', 'sans-serif'],
-      NeueMontreal: ['NeueMontreal', 'sans-serif']
+      NeueMontreal: ['NeueMontreal', 'sans-serif'],
     },
     screens: {
-      xs: "280px",
-      ss: "620px",
-      sm: "768px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      xs: '1700px',
+      ss: '1200px',
+      sm: '1060px',
+      md: '768px',
+      lg: '620px',
+      xl: '280px',
     },
   },
   plugins: [],
 };
+
+// BreakPoint Values are assigned in Descending Order cuz i made this on Desktop First 👆🏻

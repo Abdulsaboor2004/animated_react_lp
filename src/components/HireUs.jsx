@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/effect-flip';
 
-const Testimonials = () => {
+const HireUs = () => {
   return (
     <section className='w-full bg-dim_white border-t-2 border-dark/30 mt-1 flex items-center justify-center flex-wrap p-10 relative overflow-hidden'>
       <h3 className='capitalize absolute top-10 font-["NeueMontreal"] text-[3vmax] font-bold tracking-normal text-center'>
@@ -54,7 +54,7 @@ const Testimonials = () => {
       </div>
 
       {/* DIV FOR MOBILE */}
-      <div className='xs:visible ss:visible sm:hidden md:hidden lg:hidden xl:hidden w-[90%] h-[50vh] flex-none gap-2 flex items-center justify-center  '>
+      <div className='md:hidden flex w-[90%] h-[50vh] flex-none gap-2  items-center justify-center  '>
         {/* cards */}
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -134,10 +134,10 @@ const Testimonials = () => {
 
       {/* DIV FOR DESKTOP */}
 
-      <div className='sm:visible md:visible lg:visible xl:visible w-[90%] h-[50vh] flex-none gap-2 flex items-center justify-center  '>
+      <div className=' md:flex hidden w-[90%] h-[50vh] flex-none gap-2  items-center justify-center  '>
         {/* cards */}
 
-        <div className='relative w-[250px] h-[270px] flex-none border rounded-md bg-dark  flex items-center justify-center  hover:bg-dark/90  shadow'>
+        <div className='relative w-[250px] h-[270px] flex-none border rounded-md bg-dark flex items-center justify-center  hover:bg-dark/90 shadow'>
           <img
             className=' w-32 '
             src='https://assets-global.website-files.com/603fea6471d9d8559d077603/606710a582de651f75b268f4_Upwork.svg'
@@ -197,4 +197,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default HireUs;

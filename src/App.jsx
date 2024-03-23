@@ -5,7 +5,7 @@ import Marquee from './components/Marquee';
 import About from './components/About';
 import Eyes from './components/Eyes';
 import Projects from './components/Projects';
-import Testimonials from './components/Testimonials';
+import HireUs from './components/HireUs';
 import LocomotiveScroll from 'locomotive-scroll';
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
       <Marquee />
       <About />
       <Projects />
-      <Testimonials />
       <Eyes />
+      <HireUs />
     </section>
   );
 };

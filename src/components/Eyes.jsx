@@ -19,7 +19,7 @@ const Eyes = () => {
   });
 
   return (
-    <aside className='w-full h-[80vh] bg-dark flex flex-row rounded-t-3xl -mt-5'>
+    <aside data-scroll data-scroll-speed=".1" className='w-full h-[80vh] bg-dark hidden flex-row  -mt-5 md:flex'>
       <div
         className='w-full h-full object-contain bg-no-repeat bg-center relative'
         style={{ backgroundImage: `url(${eye})` }}>
