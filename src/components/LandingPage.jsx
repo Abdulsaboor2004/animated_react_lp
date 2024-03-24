@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const LandingPage = () => (
   <main className='w-full text-dark h-screen -mb-44 bg-dim_white '>
-    <div className='TEXT-STRUCTURE mt-14 px-14'>
+    <div className='TEXT-STRUCTURE mt-12 px-14'>
       {['We Develop', 'Next-Level', 'Stuff for You'].map((item, index) => {
         return (
           // i don't know why text-size can't be changed via @layer directive
@@ -26,20 +26,20 @@ const LandingPage = () => (
         );
       })}
     </div>
-    <div className='font-["NeueMontreal"] border-t-[1px] border-dark/20 mt-64 flex justify-between items-center py-5 px-12 '>
+    <div className='font-["NeueMontreal"] border-t-[1px] border-dark/20 mt-64 flex md:flex-row flex-col justify-between items-center py-5 px-12 gap-2'>
       {[
         'Unlimited revisions until you are satisfied',
         'Watch your ROI fly ground to sky-high',
       ].map((item) => {
-        return <p className='text-lg leading-none tracking-tight'>{item}</p>;
+        return <p className='text-[2.4lvh] leading-none tracking-tighter md:tracking-tight'>{item}</p>;
       })}
-      <div className='flex items-center gap-3'>
-        <div className='py-2 px-5 border border-dark/20 rounded-full ml-40 text-xl leading-none tracking-tight '>
-          Start My Project Today!
+      <div className='flex items-center gap-3 md:mt-0 mt-10'>
+        <div className='flex-shrink-0 transition-all cursor-pointer hover:bg-dark hover:text-dim_white py-2 px-5 border border-dark/20 rounded-full md:ml-40 text-xl leading-none tracking-tight flex flex-row justify-center items-center gap-2'>
+          Start My Project Today! <MdArrowOutward className='w-7 h-7 flex items-center justify-center hover:border-2 border-dim_white rounded-full '/>
         </div>
-        <div className='w-7 h-7 flex items-center justify-center border border-dark/20 rounded-full'>
-          <MdArrowOutward />
-        </div>
+       
+          
+       
       </div>
     </div>
   </main>
